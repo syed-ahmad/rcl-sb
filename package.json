@@ -22,7 +22,7 @@
     "build": "build-storybook -c .storybook -o build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s build --debug-webpack"
+    "storybook": "start-storybook -p 9009 -c .storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
